@@ -136,7 +136,7 @@ $("input[type*='checkbox']").change(function () {
     //calls function to disable conflicting activities
     activityRegister(disableCheckBox);
     $(".activities legend").removeProp('style');
-    $(".activities p").remove();
+    $("#activity-error").remove();
     
   // check is checkbox was unchecked
   } else {
